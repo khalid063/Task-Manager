@@ -1,5 +1,5 @@
 class AssetsUtils {
-  AssetsUtils._();
+  AssetsUtils._();    /// it makes "single tone", that's why nobody can make it's constractor as like -> AssetsUtils();
 
   static const String _imagesPath = 'assets/images';
 
