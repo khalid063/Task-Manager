@@ -17,10 +17,11 @@ class ScreenBackground extends StatelessWidget {
           height: double.infinity,
           child: SvgPicture.asset(
             AssetsUtils.backgroundSVG,
-            fit: BoxFit.fitHeight,
+            fit: BoxFit.fill,
           ),
         ),
-        child
+        child,
+        ///SafeArea(child: child)       ///*** if you want to use "safeArea" on whole side
       ],
     );
   }

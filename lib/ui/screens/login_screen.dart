@@ -31,6 +31,8 @@ class LoginScreen extends StatelessWidget {
                 obscureText: true,
                   decoration: const InputDecoration(
                       hintText: 'Password',
+                    /// if we want show and hide icon,
+                    //prefixIcon: IconButton(onPressed: () {}, icon: Icon(Icons.remove_red_eye)),
                   )
               ),
                 SizedBox(height: 16,),
@@ -41,8 +43,8 @@ class LoginScreen extends StatelessWidget {
                 ),
                 SizedBox(height: 16,),
                 Center(
-                child: TextButton(
-                  onPressed: () {},
+                child: InkWell(       ///*** for Removing the outside padding of Text Button
+                  onTap: () {},
                   child: Text(
                     'Forgot Password',
                     style: TextStyle(color: Colors.grey),
