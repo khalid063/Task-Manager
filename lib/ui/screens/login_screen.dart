@@ -18,7 +18,7 @@ class LoginScreen extends StatelessWidget {
                 //mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  SizedBox(height: 64,),
+                  SizedBox(height: 65,),
                   Text(
                       'Get Started With',
                     style: Theme.of(context).textTheme.titleLarge,
