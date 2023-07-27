@@ -20,7 +20,7 @@ class LoginScreen extends StatelessWidget {
                     'Get Started With',
                   style: Theme.of(context).textTheme.titleLarge,
                 ),
-                SizedBox(height: 25,),
+                SizedBox(height: 24,),
                 TextFormField(
                 decoration: const InputDecoration(
                   hintText: 'Email'
