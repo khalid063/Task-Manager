@@ -24,7 +24,7 @@ class _OtpVerificationScreenState extends State<OtpVerificationScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  SizedBox(height: 64,),
+                  SizedBox(height: 65,),
                   Text(
                     'Pin Verification',
                     style: Theme.of(context).textTheme.titleLarge,
