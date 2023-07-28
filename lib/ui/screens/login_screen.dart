@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:task_manager/ui/screens/email_verification_screen.dart';
+import 'package:task_manager/ui/screens/signup_screen.dart';
 import '../widgets/screen_background.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -66,7 +67,9 @@ class LoginScreen extends StatelessWidget {
                         letterSpacing: 0.5,
                       ),
                     ),
-                    TextButton(onPressed: (){}, child: Text('Sign up')),
+                    TextButton(onPressed: (){
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => SignUpScreen()));
+                    }, child: Text('Sign up')),
                     ],
                   )
                 ],
