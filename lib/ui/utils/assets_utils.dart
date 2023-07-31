@@ -5,4 +5,5 @@ class AssetsUtils {
 
   static const String logoSVG = '$_imagesPath/logo.svg';
   static const String backgroundSVG = '$_imagesPath/background.svg';
+  static const String profileImageDemo = '$_imagesPath/khalid_profile_img.jpg';
 }
