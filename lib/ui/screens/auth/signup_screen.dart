@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:task_manager/ui/screens/email_verification_screen.dart';
-import 'package:task_manager/ui/screens/signup_screen.dart';
-import '../widgets/screen_background.dart';
+import 'package:task_manager/ui/screens/auth/signup_screen.dart';
+import '../../widgets/screen_background.dart';
 
 class SignUpScreen extends StatelessWidget {
   const SignUpScreen({Key? key}) : super(key: key);

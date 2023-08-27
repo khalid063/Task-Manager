@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:task_manager/ui/screens/otp_verification_screen.dart';
 import 'package:task_manager/ui/widgets/screen_background.dart';
+
+import 'auth/otp_verification_screen.dart';
 
 class EmailVerificationScreen extends StatefulWidget {
   const EmailVerificationScreen({Key? key}) : super(key: key);

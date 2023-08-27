@@ -1,9 +1,10 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:task_manager/ui/screens/login_screen.dart';
 import 'package:task_manager/ui/widgets/screen_background.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
+
+import 'login_screen.dart';
 
 class ResetPassword extends StatefulWidget {
   const ResetPassword({Key? key}) : super(key: key);
